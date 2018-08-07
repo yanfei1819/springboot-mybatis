@@ -1,9 +1,13 @@
+#数据库的配置
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://localhost:3306/test
     username: root
     password:
+
+
+#配置mybatis的相关路径
 mybatis:
   mapper-locations: classpath:mapper/*.xml
   type-aliases-package: com.example.springbootmybatis.entity
